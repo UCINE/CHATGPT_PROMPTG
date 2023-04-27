@@ -13,7 +13,7 @@ def generate_response(userprompt):
     return message
 
 
-    prompt = "explain why there is no -0 in math for 7 years child"
+    prompt = "explain to a 7 years child why there is no such thing as negative zero in math"
     
     response = generate_response(prompt)
 
