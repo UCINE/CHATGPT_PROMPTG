@@ -12,7 +12,6 @@ def generate_response(userprompt):
     message = completion.choices[0].message.content
     return message
 
-
     prompt = "explain to a 7 years child why there is no such thing as negative zero in math"
     
     response = generate_response(prompt)
