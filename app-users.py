@@ -7,7 +7,6 @@ import requests
 import json
 import streamlit as st
 openai.api_key = "sk-"
-#openai.organization = "org-XXX"
 
 
 def SearchTheWeb(query):
